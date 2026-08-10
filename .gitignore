@@ -1,0 +1,26 @@
+# Xcode / build
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+*.xcodegen.cache
+# Keep the shared scheme — do NOT ignore xcshareddata/
+!**/xcshareddata/
+!**/xcshareddata/**
+# Keep project.yml
+!project.yml
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# SPM
+.swiftpm/
+Package.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
